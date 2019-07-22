@@ -1,4 +1,4 @@
 public class ExampleClass {
-    //:monday
+    //:This is our second commit
 }
 
