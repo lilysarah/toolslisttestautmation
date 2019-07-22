@@ -11,7 +11,7 @@ Feature: Login
   *User: Someone who whants to create a Tolls List using our application
   *Supporters: This is  what the customer calls 'Admin' users.
 
-  @hig-impact
+  @high-impact
   Scenario Outline: a valid user logs into the application
     Given I am logged out
     When I enter username "<username>" and password "<password>"
