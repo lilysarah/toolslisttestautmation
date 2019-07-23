@@ -1,13 +1,17 @@
+Feature: create
+  Add a tool to the list
 
-Scenario: Select a tool and view what it is
-Given I am logged in successfully
-When I select a tool
-Then I can view the tools description details are
+  Scenario Outline: user creates tools
+    Given i am logged in successfully
+    When I create a tool "<use>" and "<name>"
+    Then i can add the created tool to the list on the website
+    Examples:
+      | use         | name   |
+      | sstool      | ssayer |
+      | anothertool | ssayer |
 
-Scenario Outline: user creates tools
-  Given i am logged in successfully
-  When I create a tool
-  Then i can add the created tool to the list on the website
+
+
 
 
 
