@@ -25,4 +25,21 @@ public class Stepdefs {
         throw new cucumber.api.PendingException();
     }
 
+    @Given("i am logged in successfully")
+    public void i_am_logged_in_successfully() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
+
+    @When("I create a tool {string} and {string}")
+    public void i_create_a_tool_and(String toolUse, String toolName) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
+
+    @Then("i can add the created tool to the list on the website")
+    public void i_can_add_the_created_tool_to_the_list_on_the_website() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new cucumber.api.PendingException();
+    }
 }
