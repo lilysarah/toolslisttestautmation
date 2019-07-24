@@ -7,8 +7,9 @@ import org.openqa.selenium.By;
 @Data
 public class LoginPageLocators {
 
-private By usernameLocator = By.id("username");
-private By passwordlocator = By.id("password");
-private By loginButtonLocator = By.id("enter");
-private By warningMessage = By.xpath(".//p[@id='rejectLogin']/b");
+    private By usernameLocator = By.id("username");
+    private By passwordlocator = By.id("password");
+    private By loginButtonLocator = By.id("enter");
+    private By warningMessage = By.xpath(".//p[@id='rejectLogin']/b");
+
 }
