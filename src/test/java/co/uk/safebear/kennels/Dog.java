@@ -1,7 +1,8 @@
 package co.uk.safebear.kennels;
-
+//the below is your class name Dog note the capital letters
 public class Dog {
 
+    // the following describes the
     private String name;
     private int age;
     private String colour;
