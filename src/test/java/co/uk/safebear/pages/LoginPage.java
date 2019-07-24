@@ -29,4 +29,7 @@ public class LoginPage {
     public void clickLoginButton(){
         driver.findElement(locators.getLoginButtonLocator()).click();
     }
+    public String checkForFailedLoginWarning(){
+        return driver.findElement(locators.getWarningMessage()).getText();
+    }
 }
