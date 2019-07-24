@@ -29,8 +29,10 @@ public class Stepdefs {
             Thread.sleep(Integer.parseInt(System.getProperty("sleep", "2000")));
         } catch (InterruptedException e) {
             e.printStackTrace();
-            driver.quit();
         }
+        driver.quit();
+
+
     }
 
 
