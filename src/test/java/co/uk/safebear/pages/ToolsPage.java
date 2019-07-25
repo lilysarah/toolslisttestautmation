@@ -19,4 +19,9 @@ public class ToolsPage {
     public String checkForLoginSuccessfulMessage() {
         return driver.findElement(locators.getSuccessfulLoginMessage()).getText();
     }
+
+    public void typeIntoSearchField(String toolname) {
+        driver.findElement(locators.getSearchFieldlocator()).sendKeys(toolname);
+    }
 }
+
