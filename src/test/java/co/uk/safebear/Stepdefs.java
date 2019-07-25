@@ -48,6 +48,7 @@ public class Stepdefs {
                 loginPage.getPageTitle());
     }
 
+
     @When("I enter username {string} and password {string}")
     public void i_enter_username_and_password(String username, String password) {
         loginPage.enterUsername(username);
@@ -58,7 +59,7 @@ public class Stepdefs {
     @Then("the user is informed that the login is successful")
     public void the_user_is_informed_that_the_login_is_successful() {
         assertThat("Login failed or teh Login successful message didn't appear",
-                toolsPage.checkForLoginSuccessfulMessage(),containsString("Login Successful"));
+                toolsPage.checkForLoginSuccessfulMessage(), containsString("Login Successful"));
     }
 
     @Given("i am logged in successfully")

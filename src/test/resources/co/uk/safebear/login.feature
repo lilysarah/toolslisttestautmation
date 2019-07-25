@@ -8,7 +8,7 @@ Feature: Login
   * The User must be informed if the login information is successful
 
   Glossary:
-  *User: Someone who whants to create a Tolls List using our application
+  *User: Someone who wants to create a Tools List using our application
   *Supporters: This is  what the customer calls 'Admin' users.
 
   @high-impact
